@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Exercise 1</title>
+  <meta
+          content="width=device-width, initial-scale=1, maximum-scale=1"
+          name="viewport"
+  />
+
+  <style>
+/*  Debug CSS Code Below */
+    .box{
+      width: 200px;
+      height: 200px;
+      position: absolute;
+    }
+
+    #one{
+      background: red;
+      top: 100px;
+      left: 150px;
+      z-index: 1;
+    }
+
+    #two{
+      background: yellow;
+      top: 80px;
+      left: 100px;
+      z-index: -1;
+   }
+   #three{
+      background: blue;
+      z-index: 2;
+   }
+  </style>
+</head>
+
+<body>
+<div id="one" class="box"> Box 1</div>
+<div id="two" class="box"> Box 2</div>
+<div id="three" class="box"> Box 3</div>
+
+</body>
+</html>
