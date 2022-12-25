@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flexbox Order</title>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    .box {
+      width: 50px;
+      height: 50px;
+      border: 5px solid black;
+    }
+    #two {
+      order: 2;
+    }
+    #one {
+      order: 1;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="box" id="two">Box 2</div>
+  <div class="box" id="one">Box 1</div>
+</div>
+</body>
+</html>
