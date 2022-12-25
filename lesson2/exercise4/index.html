@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Exercise 4: Z-Index</title>
+  <meta
+          content="width=device-width, initial-scale=1, maximum-scale=1"
+          name="viewport"
+  />
+
+  <style>
+      .box{
+          width: 200px;
+          height: 200px;
+          position: absolute;
+          border: 1px solid red;
+      }
+
+        /*  Edit z-index properties below */
+    #one{
+      background: red;
+      top: 100px;
+      left: 150px;
+      z-index: 3;
+      border: 5px solid black;
+    }
+    #two{
+      background: yellow;
+      top: 80px;
+      left: 100px;
+      z-index: 2;
+      border: 5px solid black;
+   }
+   #three{
+      background: blue;
+      z-index: 1;
+      border: 5px solid black;
+   }
+  </style>
+</head>
+
+<body>
+<div id="one" class="box"> Box 1</div>
+<div id="two" class="box"> Box 2</div>
+<div id="three" class="box"> Box 3</div>
+
+</body>
+</html>
