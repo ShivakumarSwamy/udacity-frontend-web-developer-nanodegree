@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 100px);
+  }
+  #one{
+    grid-area: 1 / 1 / 2 / 4;
+    border: 5px solid violet;
+  }
+  #two{
+    grid-area: 1 / 1 / 3 / 2;
+    border: 5px solid indigo;
+  }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+  <div id="one">Box 1</div>
+  <div id="two">Box 2</div>
+</div>
+</body>
+</html>
