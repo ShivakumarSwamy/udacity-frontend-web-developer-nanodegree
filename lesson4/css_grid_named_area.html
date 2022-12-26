@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .wrapper{
+      display: grid;
+      grid-template-columns: repeat(9, 1fr);
+      grid-auto-rows: minmax(100px, auto);
+      grid-template-areas:
+        "hd hd hd hd   hd   hd   hd   hd   hd"
+        "sd sd .  main main main main main main"
+        "ft ft ft ft   ft   ft   ft   ft   ft";
+    }
+    #header{
+      grid-area: hd;
+      border: 5px solid violet;
+    }
+    #sidebar{
+      grid-area: sd;
+      border: 5px solid indigo;
+    }
+    #content{
+      grid-area: main;
+      border: 5px solid blue;
+    }
+    #footer{
+      grid-area: ft;
+      border: 5px solid green;
+    }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+  <div id="header">Header</div>
+  <div id="sidebar">Sidebar</div>
+  <div id="content">Content</div>
+  <div id="footer">Footer</div>
+</div>
+</body>
+</html>
