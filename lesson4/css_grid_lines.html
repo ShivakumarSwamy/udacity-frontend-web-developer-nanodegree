@@ -27,6 +27,15 @@
       grid-row: 3 / 5;
       border: 5px solid violet;
     }
+    #box4 {
+      grid-area: 3 / 3 / span 3 / span 1;
+      border: 5px solid orange;
+      z-index: 1;
+    }
+    #box5 {
+      grid-area: 5 / 1 / 6 / -1;
+      border: 5px solid black;
+    }
   </style>
 </head>
 <body>
@@ -34,8 +43,8 @@
   <div id="box1">One</div>
   <div id="box2">Two</div>
   <div id="box3">Three</div>
-  <div>Four</div>
-  <div>Five</div>
+  <div id="box4">Four</div>
+  <div id="box5">Five</div>
 </div>
 </body>
 </html>
