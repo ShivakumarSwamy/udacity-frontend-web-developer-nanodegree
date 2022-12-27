@@ -1,0 +1,37 @@
+.container{
+    /* Step 1: Set display to grid */
+      display:grid;
+   /* Step 2: setup rows amd columns */
+      grid-template-columns: repeat(9, 1fr);
+      grid-template-rows: repeat(3, 200px);
+   /* Step : setup named grid areas */
+      grid-template-areas:
+        "hd hd hd   hd   hd   hd   hd   hd   hd"
+        "fe fe main main main main main main main"
+        "ft ft ft   ft   ft   ft   ft   ft   ft";
+
+      border: 2px solid yellow;
+
+  }
+  .box{
+    border: 1px solid red;
+    background: #F8FA9D;
+    }
+
+  .header{
+      /* Set elements grid-area here */
+    grid-area: hd;
+  }
+
+  .footer{
+    /* Set elements grid-area here */
+    grid-area: ft;
+  }
+  .feature{
+    /* Set elements grid-area here */
+    grid-area: fe;
+  }
+  .content{
+    /* Set elements grid-area here */
+    grid-area: main;
+  }
