@@ -1,0 +1,44 @@
+/* Mobile first */
+.container{
+  display:grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 250px 600px;
+  border: 2px solid yellow;
+    /* Use grid-template-area to create a mobile layout where each named space occupies its own row */
+  grid-template-areas:
+    "hd"
+    "sd"
+    "main"
+    "ft";
+}
+.box{
+    border: 1px solid red;
+    background: #F8FA9D;
+    }
+
+  .header{
+    grid-area:hd;
+  }
+  .footer{
+    grid-area: ft;
+  }
+  .sidebar{
+    grid-area: sd;
+  }
+  .content{
+    grid-area: main;
+  }
+
+/* If Screen Is Wide Enough */
+@media(min-width:900px){
+.container{
+      display:grid;
+      grid-template-columns: 300px 300px 300px;
+      grid-template-rows: 250px 600px;
+      grid-template-areas:
+      "hd hd hd hd hd hd hd hd"
+      "sd sd main main main main main main"
+      "ft ft ft ft ft ft ft ft";
+      border: 2px solid red;
+  }
+}

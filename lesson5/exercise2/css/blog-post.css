@@ -1,0 +1,46 @@
+/* Mobile First Layout */
+.container{
+      display:grid;
+      grid-template-columns: 300px 300px 300px;
+      grid-template-rows: 250px 600px;
+      border: 2px solid yellow;
+    /* Use grid-template-area to create a mobile layout where each named space occupies its own row */
+      grid-template-areas:
+      "hd"
+      "feat"
+      "main"
+      "ft";
+  }
+  .box{
+    border: 1px solid red;
+    background: #F8FA9D;
+    }
+
+  .header{
+      grid-area:hd;
+  }
+
+  .footer{
+    grid-area: ft;
+  }
+  .feature{
+    grid-area: feat;
+  }
+  .content{
+    grid-area: main;
+  }
+
+  /* If wide enough */
+  @media(min-width:900px){
+    .container{
+      display:grid;
+      grid-template-columns: 300px 300px 300px;
+      grid-template-rows: 250px 600px;
+      grid-template-areas:
+      "hd hd hd hd hd hd hd hd"
+      "feat feat feat feat feat feat feat feat"
+      "main main main main main main main main"
+      "ft ft ft ft ft ft ft ft";
+      border: 2px solid yellow;
+  }
+}
