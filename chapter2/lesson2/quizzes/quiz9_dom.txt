@@ -1,0 +1,4 @@
+happens first   -> tag
+happens second  -> token
+happens third   -> node
+happens fourth  -> DOM
