@@ -44,3 +44,12 @@ Example in https://developer.mozilla.org/en-US/docs/Web/API/Document/getElements
 > document.getElementsByTagName('unknown-tag');
   # empty HTMLCollection[]
 ```
+
+# Element and Node interface
+
+- Element: https://developer.mozilla.org/en-US/docs/Web/API/Element
+- Node: https://developer.mozilla.org/en-US/docs/Web/API/Node
+
+```
+Event Target <--- Node <--- Element
+```
