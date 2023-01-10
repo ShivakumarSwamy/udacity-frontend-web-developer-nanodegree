@@ -1,6 +1,8 @@
 # Web API
 
-# get element by id
+# DOM methods
+
+### get element by id
 
 ```
 document.getElementById('<insert-element-id>');
@@ -45,7 +47,7 @@ Example in https://developer.mozilla.org/en-US/docs/Web/API/Document/getElements
   # empty HTMLCollection[]
 ```
 
-# Element and Node interface
+## Element and Node interface
 
 - Element: https://developer.mozilla.org/en-US/docs/Web/API/Element
 - Node: https://developer.mozilla.org/en-US/docs/Web/API/Node
