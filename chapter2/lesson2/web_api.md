@@ -47,6 +47,46 @@ Example in https://developer.mozilla.org/en-US/docs/Web/API/Document/getElements
   # empty HTMLCollection[]
 ```
 
+### querySelector
+
+- select element like css selector
+
+```
+document.querySelector('.class');
+document.querySelector('#id');
+document.querySelector('tag');
+```
+
+Example in https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+```
+> document.querySelector('h2')
+  # Element
+> document.querySelector('h2.document-toc-heading');
+  # Element
+> document.querySelector('h2.document-toc');
+  # null  
+```
+
+### querySelectorAll
+
+- select elements like css selector
+
+```
+document.querySelectorAll('.class');
+document.querySelectorAll('#id');
+document.querySelectorAll('tag');
+```
+
+Example in https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
+```
+> document.querySelectorAll('h2')
+  # NodeList[...,...,...]
+> document.querySelectorAll('.main-wrapper p');
+  # NodeList[...,...,...]
+> document.querySelectorAll('h')
+  # empty NodeList[]  
+```
+
 ## Element and Node interface
 
 - Element: https://developer.mozilla.org/en-US/docs/Web/API/Element
