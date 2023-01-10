@@ -36,7 +36,7 @@ Example in https://developer.mozilla.org/en-US/docs/Web/API/Document/getElements
 document.getElementsByTagName('<insert-tag-name>');
 ```
 
-Example in https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagName
+Example in https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName
 ```
 > document.getElementsByTagName('p');
   # HTMLCollection[...,...,...]
