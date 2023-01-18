@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <body>
+    <h1 id="pick-me">Greetings To <span>All</span>!</h1>
+    <h1 id="pick-me-another" style="display: none;">Ho Ho All</h1>
+    <script>
+      const pick_me = document.querySelector('#pick-me');
+      console.log(pick_me.innerHTML);
+      console.log(pick_me.outerHTML);
+      console.log(pick_me.textContent);
+
+      pick_me.textContent = 'Updated Greetings To <em>ALL</em>';
+      console.log(pick_me.textContent);
+
+      pick_me.innerHTML = pick_me.textContent;
+      console.log(pick_me.innerHTML);
+
+      const pick_me_another = document.querySelector('#pick-me-another');
+      console.log(pick_me_another.textContent);
+      console.log(pick_me_another.innerText);
+    </script>
+  </body>
+</html>
