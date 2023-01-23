@@ -103,3 +103,9 @@ Event Target <--- Node <--- Element
   - addEventListener()
   - removeEventListener()
   - dispatchEvent()
+
+### addEventListener
+
+```
+<event-target>.addEventListener(<event-to-listen-for-or-type>, <function-to-run-when-an-event-happens-or-listener>);
+```
