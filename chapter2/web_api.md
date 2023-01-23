@@ -95,3 +95,11 @@ Example in https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelect
 ```
 Event Target <--- Node <--- Element
 ```
+
+## Event Target 
+
+- Event Target: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget
+- Instance Methods
+  - addEventListener()
+  - removeEventListener()
+  - dispatchEvent()
