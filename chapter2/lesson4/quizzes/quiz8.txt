@@ -1,0 +1,8 @@
+const items = document.querySelectorAll('.quizzing-quizzes');
+const el = items[1];
+
+el.addEventListener('click', function () {
+    console.log('You clicked on the 2nd quizzing-quizzes item!');
+}, false);
+
+# the bubbling phase
