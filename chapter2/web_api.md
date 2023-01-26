@@ -96,6 +96,12 @@ Example in https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelect
 Event Target <--- Node <--- Element
 ```
 
+## Phases of an event
+
+- Capturing Phase - register listener before child
+- At Target Phase - register listener at target
+- Bubbling Phase - register listener at child
+
 ## Event Target 
 
 - Event Target: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget
@@ -106,9 +112,16 @@ Event Target <--- Node <--- Element
 
 ### addEventListener
 
-MDN Link: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+- MDN Link: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 ```
 <event-target>.addEventListener(<event-to-listen-for-or-type>, <function-to-run-when-an-event-happens-or-listener>);
+```
+- with useCapture argument. default is false which is bubbling phase, otherwise capturing phase.
+
+```
+<event-target>.addEventListener(<event-to-listen-for-or-type>, 
+                                <function-to-run-when-an-event-happens-or-listener>,
+                                <useCapture-true-or-false>);
 ```
 
 ## removeEventListener
