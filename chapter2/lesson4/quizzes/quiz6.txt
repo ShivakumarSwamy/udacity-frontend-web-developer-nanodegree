@@ -1,0 +1,1 @@
+the element will still have an event listener
