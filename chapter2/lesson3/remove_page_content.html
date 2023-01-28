@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>Remove Page Content</h1>
+    <div>
+      <p>First Paragraph</p>
+      <p>Second Paragraph</p>
+      <p>Third Paragraph</p>
+      <p>Last One Standing Paragraph After Removal 😎</p>
+    </div>
+
+    <script>
+      const mainDiv = document.querySelector('div');
+      const firstElementChild = mainDiv.firstElementChild;
+      mainDiv.removeChild(firstElementChild);
+
+      const secondParagraph = document.querySelector('p');
+      secondParagraph.parentElement.removeChild(secondParagraph);
+
+      const thirdParagraph = document.querySelector('p');
+      thirdParagraph.remove();
+    </script>
+  </body>
+</html>
