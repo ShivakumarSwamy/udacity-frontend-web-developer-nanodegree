@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1 class="ank-student jpk-modal">Style Page Content ..........................................................</h1>
+    <h2>Style Page Content via cssText</h2>
+    <h3 style="color: violet">Style Page Content override style via code</h3>
+
+    <script>
+      const mainHeading = document.querySelector('h1');
+      mainHeading.setAttribute('id', 'heading-one');
+      mainHeading.style.color = 'red';
+      mainHeading.style.width = '50%';
+      mainHeading.style['font-size'] = '2em';
+
+      const otherHeading = document.querySelector('h2');
+      otherHeading.style.cssText = 'color: blue; background-color: orange; font-size: 3.5em';
+
+      const anotherHeading = document.querySelector('h3');
+      anotherHeading.style.color = 'green';
+
+      let listOfClasses = mainHeading.className;
+      console.log(listOfClasses);
+
+      const arrayOfClasses = listOfClasses.split(' ');
+      console.log(arrayOfClasses);
+
+      listOfClasses = mainHeading.classList;
+      console.log(listOfClasses);
+
+      mainHeading.classList.toggle('richard');
+      console.log(mainHeading.classList);
+    </script>
+  </body>
+</html>
