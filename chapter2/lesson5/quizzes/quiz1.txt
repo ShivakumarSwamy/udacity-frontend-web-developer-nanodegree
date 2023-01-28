@@ -1,0 +1,33 @@
+function quiz () {
+  var y = 'yes';
+  questions();
+  fun();
+}
+function questions () {
+  var y = 'no';
+  return 7;
+}
+function are () {
+  return 3;
+}
+function fun () {
+  are();
+  // stop here
+}
+
+quiz()
+
+// call stack until stop here
+
+1.
+// questions
+// quiz
+
+2.
+// are
+// fun
+// quiz
+
+3.
+// fun
+// quiz
