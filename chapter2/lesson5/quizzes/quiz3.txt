@@ -1,0 +1,12 @@
+const pageFooter = document.querySelector('#page-footer');
+
+pageFooter.addEventListener('click', function iceCream () {
+    const footerDetails = document.querySelector('#details');
+
+    footerDetails.textContent = 'Everyone should eat ice cream!';
+});
+
+// Asynchronous code makes use of the JavaScript Event Loop
+- First browser: on click browser sends iceCream function to queue
+- Second queue: waits for call stack to be empty (idle time)
+- Third call stack: iceCream function is invoked
