@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <body>
+    <h1 id="pick-me">Add New Page Content</h1>
+
+    <!-- beforebegin -->
+    <p>
+      <!-- afterbegin -->
+      Existing text/HTML content
+      <!-- beforeend -->
+    </p>
+    <!-- afterend -->
+
+    <script>
+      const newSpan = document.createElement('span');
+      newSpan.textContent = '!!!';
+
+      const mainHeading = document.querySelector('h1');
+      mainHeading.appendChild(newSpan);
+
+      const myPara = document.createElement('p');
+      const textOfParagraph = document.createTextNode('I am the text for the paragraph!');
+      myPara.appendChild(textOfParagraph);
+      mainHeading.appendChild(myPara);
+
+      myPara.appendChild(newSpan);
+
+      const htmlTextToAdd = '<h2>Udacity Nanodegree is fun!</h2>';
+      mainHeading.insertAdjacentHTML('afterend', htmlTextToAdd);
+    </script>
+  </body>
+</html>
