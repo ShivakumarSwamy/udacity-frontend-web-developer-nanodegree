@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <body>
+    <h1 id="main-heading">Main Heading</h1>
+    <h2 id="other-heading">Other Heading</h2>
+    <script>
+      const mainHeading = document.querySelector('#main-heading');
+      const otherHeading = document.querySelector('#other-heading');
+      const excitedText = document.createElement('span');
+
+      excitedText.textContent = '!!!';
+      mainHeading.appendChild(excitedText);
+      otherHeading.appendChild(excitedText);
+    </script>
+  </body>
+</html>
