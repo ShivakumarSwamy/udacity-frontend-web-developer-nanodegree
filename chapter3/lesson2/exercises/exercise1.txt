@@ -1,0 +1,3 @@
+node -v or node --version
+npm install cors
+npm install body-parser
