@@ -1,0 +1,3 @@
+- Node allows developers to write server-side code
+- NPM is a package manager for Node that allows for easy inclusion
+- To include a Node package already installed via terminal, the require() function is used
