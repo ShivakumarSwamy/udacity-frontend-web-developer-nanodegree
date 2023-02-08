@@ -1,0 +1,3 @@
+- Express routes are setup in the server code
+- Express provides handlers that directly correspond to HTTP requests, such as GET and POST
+- GET and POST requests are used to retrieve and save data between APIs and servers
