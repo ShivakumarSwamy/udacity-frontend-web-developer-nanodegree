@@ -1,0 +1,6 @@
+const data = [];
+app.post('/flavor', addFlavor);
+
+function addFlavor (req, res) {
+  data.push(req.body);
+};
