@@ -1,0 +1,1 @@
+projectData = []; app.post('/add', function(request, response){ projectData.push(request.body); })
