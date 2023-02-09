@@ -1,0 +1,6 @@
+let newData = request.body;
+let newEntry = {
+  animal: newData.animal,
+  score: newData.score
+}
+data.push(newEntry)
