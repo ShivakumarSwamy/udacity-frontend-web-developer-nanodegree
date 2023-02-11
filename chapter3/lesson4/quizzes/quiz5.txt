@@ -1,0 +1,1 @@
+Create a selector, capture the data you want to update the element with, set updated property for element
