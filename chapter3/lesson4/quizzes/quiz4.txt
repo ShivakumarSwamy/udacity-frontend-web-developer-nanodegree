@@ -1,0 +1,1 @@
+Chaining promises with `.then()` allows you to make multiple dependent HTTP requests
