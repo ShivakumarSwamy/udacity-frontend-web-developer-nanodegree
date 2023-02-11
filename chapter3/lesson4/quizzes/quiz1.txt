@@ -1,0 +1,4 @@
+- Native promises in Javascript allow for asynchronous functions that are dependent on satisfying a condition
+- Javascript functions can be made asynchronous simply by using the keyword `async`
+- Javascript functions denoted by the keyword `async`, allow for the syntax `await`, `try`, and `catch` for an elegant
+  way of dealing with code asynchronously
