@@ -1,0 +1,5 @@
+What kinds of assets might care which order they are loaded in?
+- Styles
+- Images
+- Javascript
+- Third part libraries
