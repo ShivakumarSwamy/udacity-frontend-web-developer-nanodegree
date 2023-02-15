@@ -1,0 +1,3 @@
+What do the commands npm i or yarn do? Choose the best answer.
+
+- They install all the modules listed in the package.json and add to or create a new node_modules folder
