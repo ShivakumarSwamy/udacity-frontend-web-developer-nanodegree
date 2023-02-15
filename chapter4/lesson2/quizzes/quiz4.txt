@@ -1,0 +1,3 @@
+A webpack config file:
+
+- Allows us to override the webpack default setup as necessary
