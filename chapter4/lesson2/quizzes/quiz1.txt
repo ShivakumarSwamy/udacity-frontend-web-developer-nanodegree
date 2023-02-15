@@ -1,0 +1,3 @@
+Based on what you know of Webpack so far, which of these tasks would NOT be performed by webpack:
+
+- All of the above could be done with webpack
