@@ -1,0 +1,5 @@
+Select the following webpack loaders and plugins that you would expect to
+find in development mode and not in production mode
+
+- Linters
+- A source map mode for debugging
