@@ -1,0 +1,3 @@
+Would a webpack plugin or loader be responsible for taking a .less file and returning css?
+
+- Loader

@@ -1,0 +1,5 @@
+Would a webpack plugin or loader be responsible for creating
+global constant values that can be used throughout the application?
+
+- Plugin
+

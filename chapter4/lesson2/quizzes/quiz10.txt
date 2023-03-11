@@ -1,0 +1,5 @@
+What are the three steps to install most plugins:
+
+- Declare a new instance of the plugin in the plugins list
+- Require the plugin from the node modules directory
+- Install the plugin via yarn or npm
