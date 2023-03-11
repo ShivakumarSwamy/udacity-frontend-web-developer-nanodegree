@@ -1,0 +1,3 @@
+Babel is a javascript library that allows us to:
+
+- Use the latest version of javascript, even if our browser or runtime doesn't allow it

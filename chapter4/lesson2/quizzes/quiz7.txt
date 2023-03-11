@@ -1,0 +1,4 @@
+Why are webpack and babel seen together so frequently?
+
+- Babel allows developers to use convenient es6 syntax that works well with webpack in
+  a front end application
