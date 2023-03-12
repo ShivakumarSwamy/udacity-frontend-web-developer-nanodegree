@@ -1,0 +1,3 @@
+CSS is valid Sass and Sass can be transpiled to pure CSS
+
+- True

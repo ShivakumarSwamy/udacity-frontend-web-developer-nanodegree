@@ -1,0 +1,4 @@
+From what you have learned of webpack loaders and plugins,
+which one do you think we will need to turn our .scss files into .css files?
+
+- A Loader
