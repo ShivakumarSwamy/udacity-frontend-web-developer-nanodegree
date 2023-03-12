@@ -1,0 +1,3 @@
+Sass can do all of the following EXCEPT:
+
+- Make our site faster by serving sass directly from the server
