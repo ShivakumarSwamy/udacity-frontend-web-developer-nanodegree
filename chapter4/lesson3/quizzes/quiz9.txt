@@ -1,0 +1,8 @@
+The following loaders would run in which order:
+
+{
+        test: /\.less$/,
+        use: [ 'one', 'two', 'three' ]
+}
+
+- three, two, one
