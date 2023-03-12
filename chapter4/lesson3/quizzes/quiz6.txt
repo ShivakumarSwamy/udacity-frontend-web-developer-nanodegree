@@ -1,0 +1,28 @@
+Write the three sass variable declarations required by this code.
+The order of declaration and assigned values don't matter.
+
+h1 {
+  theme-secondary: #000000;
+  font-main: fantasy;
+  theme-spacing: 25px;
+}
+h2{
+  font-main: fantasy;
+  theme-spacing: 25px;
+  color: black;
+}
+h3{
+  theme-secondary: #000000;
+  theme-spacing: 25px;
+  color: green;
+}
+p {
+  theme-secondary: #000000;
+  color: red;
+  text-transform: uppercase;
+}
+
+-
+$theme-color: #000000;
+$font-family: fantasy;
+$theme-spacing: 25px;
