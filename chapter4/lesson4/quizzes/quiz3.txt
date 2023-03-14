@@ -1,0 +1,5 @@
+What are the three biggest factors contributing to slow and bloated websites?
+
+- High resolution images and gifs
+- Javascript
+- Styles
