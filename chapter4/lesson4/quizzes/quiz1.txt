@@ -1,0 +1,3 @@
+What does IIFE stand for?
+
+- Immediately Invoked Function Expression

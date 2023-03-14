@@ -1,0 +1,6 @@
+What are some benefits of using IIFEs?
+
+- They keep variables out of global scope
+- They run directly after being defined, so you don't have to name them
+- When you use them, you don't have to worry about variables you write overlapping with variables
+  from third party code
