@@ -1,0 +1,3 @@
+A service worker is a json file that keeps a cached copy of your DOM
+
+- false
